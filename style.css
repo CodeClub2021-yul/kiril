@@ -63,36 +63,10 @@ nav ul{
 	border-radius:10px;
 }
 
-
 .id{
 	border-top-width: 2px;
 	border-top-color: white;
 	padding-bottom: 10px;
-}
-
-.tinyPicture{
-	height: 100px;
-	border-radius: 10px;
-	display: block;
-	margin: 0 auto;
-
-}
-
-.card{
-	width: 200px;
-	height: 200px;
-	padding: 10px;
-	margin-top:600px;
-}
-
-.card_link{
-	color:inherit;
-	text-decoration: none;
-}
-
-.card_link{
-	display: flex;
-	justify-content: center;
 }
 
 .center-img{
@@ -100,6 +74,12 @@ nav ul{
 	margin: 0 auto;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.img{
+	width:300px;
+	height:350px; 
+	margin-left: 50px;
 }
 
 .logo{
@@ -110,10 +90,9 @@ nav ul{
 	padding-left: 20px;
 }
 
-*{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
+.logo1{
+	text-decoration: none;
+	color: #fff;
 }
 
 .container{
@@ -142,9 +121,56 @@ nav ul{
 	animation: text 3s 1;
 }
 
+.post{
+	text-decoration: none;
+	color: #ede739;
+}
+
+.text2{
+	text-align:top;
+}
+
 .afisha{
 	text-decoration: none;
-	color: #00BFFF;
+	color: #ede739;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img_container{
+	display: flex;
+	margin: 0 50px;
+}
+
+.You{
+	margin-bottom: 20px;
+}
+
+.You2{
+	margin-top: 20px;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a i {
+	color: #ede739;
+	font-size: 60px;
+	margin: 25px;
+}
+
+a:hover i{
+	color: #f1f1f1f1;
+	transition: 0.5s;
+	transform: scale(2.5);
 }
 
 @keyframes text{
@@ -182,7 +208,6 @@ nav ul{
   	margin-bottom: -40px;
   }
 }
-
  .text1{
 		font-size: 125px;
 		font-weight: 700; 
@@ -214,5 +239,12 @@ nav ul{
 		display: block;
 		margin: 0 auto;
 	
+	}
+}
+
+@media all and (min-width: 1300px){
+	a i{
+		flex-direction: row;
+		justify-content: center;
 	}
 }
